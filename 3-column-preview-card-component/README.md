@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/lariredivo/3-column-preview-card-component)
+- Solution URL: (https://github.com/lariredivo/Fronted-Mentor/tree/main/3-column-preview-card-component)
 
 ### My Process
 
