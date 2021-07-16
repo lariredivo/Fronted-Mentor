@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9375rem;
+}
+main {
+  padding: 4.5rem 1rem 3rem 1rem;
+}
+main div {
+  padding: 2.8rem;
+  line-height: 1.5rem;
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 10px 0 0;
+}
+.sedan p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.suv p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+}
+.luxury p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.3rem;
+  color: hsl(0, 0%, 95%);
+  margin: 2rem 0;
+}
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 1.7rem;
+}
+img {
+  margin: 2 em 0 0 2em;
+}
+button {
+  border-radius: 30px;
+  border: 3px solid hsl(0, 0%, 95%);
+  padding: 0.9rem 2.3rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  background-color: hsl(0, 0%, 95%);
+  transition: 0.3s linear;
+}
+.sedan button {
+  color: hsl(31, 77%, 52%);
+}
+.sedan button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 3px solid #fff;
+}
+.suv button {
+  color: hsl(184, 100%, 22%);
+}
+.suv button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 3px solid #fff;
+}
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+.luxury button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 3px solid #fff;
+}
+@media screen and (min-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    max-width: 57rem;
+  }
+  button {
+    margin-top: 4rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+  .sedan {
+    border-radius: 10px 0 0 10px;
+  }
+  .luxury {
+    border-radius: 0 10px 10px 0;
+  }
+  .attribution {
+    text-align: center;
+  }
+  .attribution div {
+    display: inline;
+  }
+}
